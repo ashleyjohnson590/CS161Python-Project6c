@@ -1,0 +1,32 @@
+#Author: Ashley Johnson
+#Date: 11/1/2020
+#Description: Program takes a list of person objects and returns the standard deviation of
+# their ages.
+class Person:
+    """Class initializes 2 private data members, name and age. """
+    def __init__(self, name, age):
+
+        self._name = name
+        self._age = age
+    def get_age(self):
+        return self._age
+
+def std_dev(person_list):
+    """Calculates the standard deviation of a list of person objects"""
+    ages = []
+
+
+    for p in person_list:
+        ages.append(p._age)
+
+    total = sum(ages)
+    mean = total / len(ages)
+
+    total = 0
+    for x in ages:
+        total += (x - mean) ** 2;
+
+    dev = total / len(ages)
+
+    stddev = dev ** .5
+    return stddev
