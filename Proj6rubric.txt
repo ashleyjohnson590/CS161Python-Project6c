@@ -1,0 +1,182 @@
+Assignment 6 Rubric (1)
+Criteria	Ratings	Pts
+Code Style Deduction: Used single letter variable names. Known math symbols are okay. (-2 Points)
+0 pts
+Full Marks
+Meets style guidelines
+0 pts
+Point Deduction
+0 / 0 pts
+Code Style Deduction: Did not format code correctly. (Colons, indentation, at least 1 blank line after function/methods/classes, name conventions such as snake_case. Overall.) (-2 Points)
+0 pts
+Full Marks
+Meets style guidelines
+0 pts
+Point Deduction
+0 / 0 pts
+Code Style Deduction: Each wrong file/function/class name. (-1 Point each)
+0 pts
+Full Marks
+Meets style guidelines
+0 pts
+Point Deduction
+0 / 0 pts
+Code Style Deduction: For each file without required comment headers. (Including inaccurate descriptions.) (-1 Point)
+0 pts
+Full Marks
+Meets style guidelines
+0 pts
+Point Deduction
+0 / 0 pts
+Un-covered Material: Used materials not yet covered in the class. Note specific deductions in the sections below. (-3 Points)
+0 pts
+Full Marks
+Used only approved materials
+0 pts
+Point Deduction
+Used un-covered materials
+0 / 0 pts
+Code Style Deduction: For each function without a required docstring. (Including inaccurate descriptions.) (-1 Point)
+0 pts
+Full Marks
+Meets style guidelines
+0 pts
+Point Deduction
+Comments
+6c: _init_ and get_age methods should have a docstring for each
+-1 / 0 pts
+Project 6a: Sorted list.
+4 pts
+Full Marks
+0 pts
+No Marks
+4 / 4 pts
+Project 6a: Branched between two solutions based on even or odd list length.
+4 pts
+Full Marks
+0 pts
+No Marks
+4 / 4 pts
+Project 6a: Correctly calculated median for odd length list.
+6 to >5 pts
+Full Marks
+5 to >0 pts
+Partial Marks
+0 pts
+No Marks
+6 / 6 pts
+Project 6a: Correctly calculated median for even length list.
+6 to >5 pts
+Full Marks
+5 to >0 pts
+Partial Marks
+0 pts
+No Marks
+Comments
+Your program does not correctly calculate the mean for lists of even length. Since len is the length of a list, but lists start indexing at 0 instead of 1, using len will give you 1 higher of a length than the last index. You are using the variable "middle" without subtracting 1 first, when you take the indexes it is actually giving you the two indexes to the right of the middle, instead of the left and right of the middle. You could fix it by subtracting 1 from list_length, or by taking some_nums[middle - 1] instead as the second index.
+3 / 6 pts
+Project 6b: Used appropriate concatenation part of list comprehension expression.
+7 to >6 pts
+Full Marks
+6 to >0 pts
+Partial Marks
+0 pts
+No Marks
+Comments
+You do not need the empty list "firstnames" in your program and it could potentially mess up some programs to include it, so be careful and make sure you are following the README specifications
+7 / 7 pts
+Project 6b: Used appropriate traversal part of list comprehension expression.
+6 to >5 pts
+Full Marks
+5 to >0 pts
+Partial Marks
+0 pts
+No Marks
+6 / 6 pts
+Project 6b: Used appropriate conditional part of list comprehension expression.
+7 to >6 pts
+Full Marks
+6 to >0 pts
+Partial Marks
+0 pts
+No Marks
+7 / 7 pts
+Project 6b DEDUCTION: Used a loop rather than list comprehension. (If so, ignore the "part of list comprehension" in criteria above, so you only judge if the correctly concatenated, traversed, and used a conditional appropriately.) (-6 Points)
+0 pts
+Full Marks
+0 pts
+No Marks
+0 / 0 pts
+Project 6b DEDUCTION: Problems with function structure causing results to not return properly. (Parameters, return expression, etc.) (-3 Points)
+0 pts
+Full Marks
+0 pts
+No Marks
+0 / 0 pts
+Project 6c: Correctly used an init method to create fields for name and age.
+3 pts
+Full Marks
+0 pts
+No Marks
+3 / 3 pts
+Project 6c: Created getter method for age field.
+3 pts
+Full Marks
+0 pts
+No Marks
+3 / 3 pts
+Project 6c: Function properly traverses list and acquires age for each Person object.
+7 to >6 pts
+Full Marks
+6 to >0 pts
+Partial Marks
+0 pts
+No Marks
+7 / 7 pts
+Project 6c: Function properly calculates standard deviation.
+7 to >6 pts
+Full Marks
+6 to >0 pts
+Partial Marks
+0 pts
+No Marks
+7 / 7 pts
+Project 6c: Function parameter expects something other than a list of Person objects. (-3 Points)
+0 pts
+Full Marks
+0 pts
+No Marks
+0 / 0 pts
+Project 6c: Function uses sqrt( ) function, which has not been covered yet. (-3 Points)
+0 pts
+Full Marks
+0 pts
+No Marks
+0 / 0 pts
+Project 6c: Problems with function/method structure causing results to not return properly. (Parameters, return expression, etc.) (-3 Points)
+0 pts
+Full Marks
+0 pts
+No Marks
+0 / 0 pts
+Project 6c DEDUCTION: Problems with class structure causing results to not return properly. (Data members, init method, etc.) (-3 Points)
+0 pts
+Full Marks
+0 pts
+No Marks
+Comments
+std_dev method should not directly access private variables from the Person class (like p._age) but should use the get_age method instead
+0 / 0 pts
+Late Project Deduction (within 48 hours)
+0 pts
+Full Marks
+0 pts
+Point Deduction
+0 / 0 pts
+Deduction: Typos/incorrect formatting (Including extraneous/incorrect print statements). (-6 Points)
+0 pts
+Full Marks
+0 pts
+Point Deduction
+0 / 0 pts
+Total Points: 56
